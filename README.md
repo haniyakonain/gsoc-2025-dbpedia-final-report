@@ -78,11 +78,11 @@ extraction-framework/
 ### Before & After: Coordinate Parser Testing
 
 #### Before: Test Failures and Errors
-![Before - Test results showing multiple errors and failures](before-parser-test.png)
+![Before - Test results showing multiple errors and failures](images/before-parser-test.png)
 *Original parser had 25 errors in testing, with issues parsing Chinese, Korean, Afrikaans, and German coordinate formats.*
 
 #### After: Clean Test Results
-![After - All tests passing with improved performance](after-parser-test.png)
+![After - All tests passing with improved performance](images/after-parser-test.png)
 *Enhanced parser shows 0 errors and 0 failures, with successful parsing across all language variants. Improved build time (1.682s test execution) and proper handling of multi-language coordinate formats.*
 
 ### Impact & Results
@@ -120,11 +120,11 @@ extraction-framework/
 ### Before & After: Single-Extractor Server Interface
 
 #### Before: Limited Options
-![Before - Basic dropdown with only two options](before-server-ui.png)
+![Before - Basic dropdown with only two options](images/before-server-ui.png)
 *The original interface only offered "Mappings Only" and "All Enabled Extractors" options*
 
 #### After: Individual Extractor Selection
-![After - Comprehensive dropdown with individual extractors](after-server-ui.png)
+![After - Comprehensive dropdown with individual extractors](images/after-server-ui.png)
 *The enhanced interface now provides a dropdown with all available extractors for individual testing*
 
 ### Impact & Results
