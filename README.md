@@ -15,7 +15,7 @@
 - [Project Deliverables](#project-deliverables)  
 - [Code Merged](#code-merged--integration-status)  
 - [Impact & Results](#impact--results)  
-- [Challenges & Learnings](#challenges-learnings)  
+- [Challenges & Learnings](#challenges-overcome--key-learnings)  
 - [Acknowledgments](#acknowledgments)  
 
 ## Project Overview
