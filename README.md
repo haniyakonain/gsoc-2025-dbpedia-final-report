@@ -30,7 +30,7 @@ DBpedia's geo-coordinate extraction system had critical accuracy issues, particu
 - Add comprehensive input validation and error handling
 - Enable individual extractor debugging capabilities
 
-## PR #779: Enhanced Geo-Coordinate Parser
+## PR #779: Enhance Geo-Coordinate Parsing and Precision in Extraction Framework 
 
 **Status:** ✅ Approved & Ready for Merge  
 **Changes:** +998 −147 lines across 5 files  
@@ -78,11 +78,11 @@ extraction-framework/
 ### Before & After: Coordinate Parser Testing
 
 #### Before: Test Failures and Errors
-![Before - Test results showing multiple errors and failures](images/before-parser-test.png)
+![Before - Test results showing multiple errors and failures](images/before-parser-test.png)<br>
 *Original parser had 25 errors in testing, with issues parsing Chinese, Korean, Afrikaans, and German coordinate formats.*
 
 #### After: Clean Test Results
-![After - All tests passing with improved performance](images/after-parser-test.png)
+![After - All tests passing with improved performance](images/after-parser-test.png)<br>
 *Enhanced parser shows 0 errors and 0 failures, with successful parsing across all language variants. Improved build time (1.682s test execution) and proper handling of multi-language coordinate formats.*
 
 ### Impact & Results
@@ -92,7 +92,7 @@ extraction-framework/
 - **Geographic Entities Affected:** ~50,000+ Southern Hemisphere entries improved
 - **Test Suite Results:** Reduced from 25 errors to 0 errors/failures in comprehensive testing
 
-## PR #780: Single-Extractor Server Functionality
+## PR #780: Enable single-extractor execution on the mapping server
 
 **Status:** ✅ Approved & Ready for Merge  
 **Changes:** +380 −79 lines across 4 files  
@@ -117,7 +117,7 @@ extraction-framework/
 - Enhanced error handling and monitoring with comprehensive logging and cache statistics
 - Centralized configuration management for improved maintainability and performance
 
-### Before & After: Single-Extractor Server Interface
+### Before & After: Enable single-extractor execution on the mapping server
 
 #### Before: Limited Options
 ![Before - Basic dropdown with only two options](images/before-server-ui.png)
@@ -193,13 +193,13 @@ extraction-framework/
 
 Both pull requests have been approved by DBpedia maintainers and are ready for integration into the main codebase:
 
-#### PR #779: Enhanced Geo-Coordinate Parser
+#### PR #779: Enhance Geo-Coordinate Parsing and Precision in Extraction Framework 
 - **Status:** ✅ Approved by @jimkont (DBpedia maintainer / Mentor)
 - **Merge Status:** Ready for production deployment
 - **Integration Impact:** Fixes Southern Hemisphere coordinate inaccuracies affecting 50,000+ geographic entities
 - **Code Location:** [github.com/dbpedia/extraction-framework/pull/779](https://github.com/dbpedia/extraction-framework/pull/779)
 
-#### PR #780: Single-Extractor Server Functionality
+#### PR #780: Enable single-extractor execution on the mapping server
 - **Status:** ✅ Approved by @jimkont (DBpedia maintainer / Mentor)
 - **Merge Status:** Ready for production deployment
 - **Integration Impact:** Enables individual extractor testing at mappings.dbpedia.org
