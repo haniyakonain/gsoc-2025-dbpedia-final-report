@@ -13,9 +13,9 @@
 - [Solution Goals](#solution-goals)  
 - [Key Improvements](#key-improvements)  
 - [Project Deliverables](#project-deliverables)  
-- [Code Merged](#code-merged)  
+- [Code Merged](#code-merged--integration-status)  
 - [Impact & Results](#impact--results)  
-- [Challenges & Learnings](#challenges--learnings)  
+- [Challenges & Learnings](#challenges-learnings)  
 - [Acknowledgments](#acknowledgments)  
 
 ## Project Overview
