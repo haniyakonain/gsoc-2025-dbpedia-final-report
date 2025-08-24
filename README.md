@@ -8,10 +8,15 @@
 
 ## 🎯 Quick Navigation
 
-- [Project Goals](#project-overview)
-- [What I Did](#key-improvements) 
-- [Current State](#performance-improvements-summary)
-- [Code Merged](#code-merged--integration-status)
+- [Project Overview](#project-overview)  
+- [Problem Statement](#problem-statement)  
+- [Solution Goals](#solution-goals)  
+- [Key Improvements](#key-improvements)  
+- [Project Deliverables](#project-deliverables)  
+- [Code Merged](#code-merged)  
+- [Impact & Results](#impact--results)  
+- [Challenges & Learnings](#challenges--learnings)  
+- [Acknowledgments](#acknowledgments)  
 
 ## Project Overview
 
