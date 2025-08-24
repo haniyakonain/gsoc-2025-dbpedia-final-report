@@ -120,11 +120,11 @@ extraction-framework/
 ### Before & After: Enable single-extractor execution on the mapping server
 
 #### Before: Limited Options
-![Before - Basic dropdown with only two options](images/before-server-ui.png)
+![Before - Basic dropdown with only two options](images/before-server-ui.png)<br>
 *The original interface only offered "Mappings Only" and "All Enabled Extractors" options*
 
 #### After: Individual Extractor Selection
-![After - Comprehensive dropdown with individual extractors](images/after-server-ui.png)
+![After - Comprehensive dropdown with individual extractors](images/after-server-ui.png)<br>
 *The enhanced interface now provides a dropdown with all available extractors for individual testing*
 
 ### Impact & Results
