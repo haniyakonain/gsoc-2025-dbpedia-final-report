@@ -2,7 +2,7 @@
 
 **Program:** Google Summer of Code 2025  
 **Organization:** DBpedia  
-**Contributor:** Haniya Konain
+**Contributor:** Haniya Konain <br>
 **Mentors:** Nausheen Fatma, Dimitris Kontokostas  
 **Duration:** May - September 2025
 
