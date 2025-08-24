@@ -137,7 +137,6 @@ extraction-framework/
 | Metric | Before | After | Improvement |
 |--------|---------|-------|-------------|
 | Coordinate Accuracy (Southern Hemisphere) | ~60% | ~95% | 58% increase |
-| Language Support | 5 languages | 19 languages | 280% expansion |
 | Server Extractor Initialization | Every request | Cached | ~90% faster |
 | Parse Success Rate | 75% | 94% | 25% improvement |
 
