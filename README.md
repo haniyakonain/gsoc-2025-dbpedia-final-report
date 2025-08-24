@@ -154,6 +154,21 @@ extraction-framework/
 - **Edge Case Testing:** Southern Hemisphere accuracy validation
 - **Performance Tests:** Cache efficiency and server response testing
 
+## Technical Skills Developed
+- **Development Environment**: Transitioned from VS Code to IntelliJ IDEA for better Scala development experience
+- **Build Systems**: Learned to effectively run and debug Scala applications using Maven
+- **Scala Fundamentals**: Developed proficiency in Scala syntax, pattern matching, and object-oriented concepts from a programming fundamentals perspective
+
+## Key Learning Breakthroughs
+- **Week 3**: Finally understood that the coordinate parsing problem was in **GeoCoordinateParser.scala** and not in **GeoCoordinatesMapping.scala** - this insight redirected my entire debugging approach
+- **Week 7**: Discovered that **some coordinate templates were not being parsed** at all, leading to the multi-language template recognition enhancement
+- **Week 10**: Based on mentor suggestions, implemented **single extractor logic rather than predicate filtering**, which significantly improved the server's debugging capabilities
+
+## Mentorship and Collaboration
+- **Weekly Sync Pattern**: Established effective weekly check-ins focusing on technical blockers rather than status updates
+- **Code Review Process**: Learned to structure PRs with clear commit messages and comprehensive descriptions for faster review cycles  
+- **Technical Communication**: Improved at explaining complex coordinate parsing logic to mentors with different technical backgrounds
+
 ## Project Deliverables
 
 ### ✅ Completed 
