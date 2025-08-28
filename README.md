@@ -8,9 +8,7 @@
 
 ## 🎯 Quick Navigation
 
-- [Project Overview](#project-overview)  
-- [Problem Statement](#problem-statement)  
-- [Solution Goals](#solution-goals)  
+- [Project Overview](#project-overview)   
 - [Key Improvements](#key-improvements)  
 - [Project Deliverables](#project-deliverables)  
 - [Code Merged](#code-merged--integration-status)  
