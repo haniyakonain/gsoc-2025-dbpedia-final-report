@@ -218,13 +218,13 @@ extraction-framework/
 Both pull requests have been approved by DBpedia maintainers and are ready for integration into the main codebase:
 
 #### PR #779: Enhance Geo-Coordinate Parsing and Precision in Extraction Framework 
-- **Status:** ✅ Approved by @jimkont (DBpedia maintainer / Mentor)
+- **Status:** ✅ Approved by [@jimkont](https://github.com/jimkont) (DBpedia maintainer / Mentor)
 - **Merge Status:** Ready for production deployment
 - **Integration Impact:** Fixes Southern Hemisphere coordinate inaccuracies affecting 50,000+ geographic entities
 - **Code Location:** [github.com/dbpedia/extraction-framework/pull/779](https://github.com/dbpedia/extraction-framework/pull/779)
 
 #### PR #780: Enable single-extractor execution on the mapping server
-- **Status:** ✅ Approved by @jimkont (DBpedia maintainer / Mentor)
+- **Status:** ✅ Approved by [@jimkont](https://github.com/jimkont) (DBpedia maintainer / Mentor)
 - **Merge Status:** Ready for production deployment
 - **Integration Impact:** Enables individual extractor testing at mappings.dbpedia.org
 - **Code Location:** [github.com/dbpedia/extraction-framework/pull/780](https://github.com/dbpedia/extraction-framework/pull/780)
