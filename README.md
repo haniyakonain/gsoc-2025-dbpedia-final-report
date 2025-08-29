@@ -25,6 +25,10 @@ DBpedia's geo-coordinate extraction system had critical accuracy issues, particu
 - **Coordinate Inaccuracy:** ~60% accuracy for Southern Hemisphere coordinates
 - **Limited Language Support:** Only 5 languages supported
 - **Parser Inflexibility:** Rigid parsing logic couldn't handle diverse coordinate formats
+#### Before: Test Failures and Errors
+![Before - Test results showing multiple parsing errors](images/before-parser-test.png)
+
+*Original parser showed  errors in testing. The parser failed to handle Southern Hemisphere coordinates and diverse international formats correctly.*
 
 ### Solution Goals
 
@@ -32,6 +36,10 @@ DBpedia's geo-coordinate extraction system had critical accuracy issues, particu
 - Implement robust multi-language support
 - Add comprehensive input validation and error handling
 - Enable individual extractor debugging capabilities
+#### After: Clean Test Results
+![After - All tests passing with improved performance](images/after-parser-test.png)
+
+*Enhanced parser shows 0 errors and 0 failures, with successful parsing across all language variants. Improved build time (0.615s test execution) and proper handling of multi-language coordinate formats, including proper Southern Hemisphere coordinate recognition.*
 
 ## PR #779: Enhance Geo-Coordinate Parsing and Precision in Extraction Framework 
 
